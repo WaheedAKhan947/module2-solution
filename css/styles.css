@@ -3,7 +3,7 @@
   margin: 0;
 }
 h1 {
-  /* text-align: center; */
+  text-align: center;
 }
 .chicken-container {
   justify-content: flex-end;
@@ -52,6 +52,8 @@ p {
   background-color: darkgray;
 }
 .box-container {
+  margin: 20px;
+  padding: 10px;
 }
 
 @media (min-width: 992px) {
@@ -68,15 +70,15 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   #box1 {
     /* width: 48%; */
-    width: 380px;
+    width:45%;
   }
   #box2 {
     /* width: 48%; */
-    width: 380px;
+    width:45%;
   }
   #box3 {
     /* width: 48%; */
-    width: 480px;
+    width: 93%;
   }
 }
 @media (max-width: 767px) {
